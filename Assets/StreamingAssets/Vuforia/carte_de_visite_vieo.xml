@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="cdv_3d_face" size="5.000000 2.949640" />
+    <ImageTarget name="jcvd_target" size="5.000000 3.029294" />
+    <ImageTarget name="cdvvv" size="5.000000 8.282276" />
+  </Tracking>
+</QCARConfig>

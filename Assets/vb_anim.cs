@@ -12,7 +12,7 @@ public class vb_anim : MonoBehaviour, IVirtualButtonEventHandler
     // Start is called before the first frame update
     void Start()
     {
-        vbBtnObj = GameObject.Find("VirtualButtonRight");
+        vbBtnObj = GameObject.Find("VirtualButton_living");
         vbBtnObj.GetComponent<VirtualButtonBehaviour>().RegisterEventHandler(this);
         cubeAni.GetComponent<Animator>();
     }

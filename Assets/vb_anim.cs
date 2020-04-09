@@ -19,14 +19,15 @@ public class vb_anim : MonoBehaviour, IVirtualButtonEventHandler
 
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
-    	cubeAni.Play("cube_animation");
-    	Debug.Log("BTN right Pressed");
+    	//cubeAni.Play("cube_animation");
+        Application.OpenURL("http://victoraymard.yo.fr/");
+    	Debug.Log("BTN web Pressed");
     }
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
     	cubeAni.Play("none");
-    	Debug.Log("BTN right Release");
+    	Debug.Log("BTN web Release");
     }
 
     // Update is called once per frame

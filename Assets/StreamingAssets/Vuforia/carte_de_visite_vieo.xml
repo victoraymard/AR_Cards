@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="cdv4" size="5.000000 3.041988" />
     <ImageTarget name="3d" size="5.000000 8.175000" />
     <ImageTarget name="holo2" size="5.000000 2.960452" />
     <ImageTarget name="holo1" size="1.000000 0.589366" />

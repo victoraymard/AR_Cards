@@ -23,6 +23,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     protected TrackableBehaviour.Status m_PreviousStatus;
     protected TrackableBehaviour.Status m_NewStatus;
     public UnityEngine.Video.VideoPlayer videoPlayer;
+    public UnityEngine.Video.VideoPlayer videoPlayer2;
 
     #endregion // PROTECTED_MEMBER_VARIABLES
 
@@ -94,6 +95,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             var canvasComponents = mTrackableBehaviour.GetComponentsInChildren<Canvas>(true);
 
             videoPlayer.Play();
+            videoPlayer2.Play();
 
             // Enable rendering:
             foreach (var component in rendererComponents)
@@ -119,6 +121,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             var canvasComponents = mTrackableBehaviour.GetComponentsInChildren<Canvas>(true);
 
             videoPlayer.Pause();
+            videoPlayer2.Pause();
 
             // Disable rendering:
             foreach (var component in rendererComponents)

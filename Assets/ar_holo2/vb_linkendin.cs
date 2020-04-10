@@ -11,7 +11,7 @@ public class vb_linkendin : MonoBehaviour, IVirtualButtonEventHandler
     // Start is called before the first frame update
     void Start()
     {
-        vbBtnObj = GameObject.Find("VirtualButton_linked");
+        vbBtnObj = GameObject.Find("VirtualButtonIn");
         vbBtnObj.GetComponent<VirtualButtonBehaviour>().RegisterEventHandler(this);
         cubeAni.GetComponent<Animator>();
     }
